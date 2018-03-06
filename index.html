@@ -4,12 +4,22 @@
         <meta charset="utf-8">
         <title>Le site le plus poli d'Internet</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
 
-
+        <form id="formulaire" action="bonjour.php" method="post">
+            <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="name" type="text" class="validate" name="name">
+                <label for="name">Entrez votre nom</label>
+            </div>
+            <div class="input-field col s12">
+                <button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">send</i>Envoyer</button>
+            </div>
+        </form>
 
 
         <script	src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
